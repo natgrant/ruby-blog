@@ -16,7 +16,9 @@
           <%= post.content %>
         </div>
         <div class="comment-count">
-          <span class="tag is-rounded"></span>
+          <span class="tag is-rounded">
+            <%= post.comments.count %> comment(s)
+          </span>
         </div>
       </div>
     </div>
